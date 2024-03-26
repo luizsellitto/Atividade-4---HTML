@@ -1,0 +1,158 @@
+@font-face 
+{
+    font-family: 'ubuntu-bold';
+    src: url(../font/Ubuntu-Bold.ttf);
+}
+
+@font-face 
+{
+    font-family: 'ubuntu-medium';
+    src: url(../font/Ubuntu-Medium.ttf);
+}
+
+@font-face 
+{
+    font-family: 'ubuntu-regular';
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+
+.transparent
+{
+    background-color:transparent;
+}
+
+.ubuntu-medium
+{
+    font-family: ubuntu-medium;
+}
+
+.ubuntu-regular
+{
+    font-family: ubuntu-regular;
+}
+
+.branco
+{
+    color: white;
+}
+
+body
+{
+    background-color: rgb(238, 245, 255);
+    font-family: ubuntu-medium;
+}
+
+.ciano
+{
+    background-color: rgb(103, 174, 225);
+    color: black;
+}
+
+.buttoncircle
+{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border-color: aliceblue;
+    color: aliceblue;
+
+}
+
+.blue
+{
+    color: rgb(14, 43, 69);
+}
+
+.gray
+{
+    color: gray;
+}
+
+#button
+{
+    width: 25%;
+    height: 8%;
+    background-color: rgb(14, 43, 69);
+    color:aliceblue;
+    border-radius: 5px;
+    margin-left: 67%;
+    margin-top: 20%;
+    text-align: center;
+    font-family: ubuntu-medium;
+}
+
+#todo
+{
+    padding: 1%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 475px;
+    width: 55%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-family: ubuntu-bold;
+}
+
+.borda-cinza
+{
+    border-color:lightgray;
+}
+
+#esquerda
+{
+    background-image: url(../img/bg-sidebar-desktop.svg);
+    padding: 2%;
+    padding-left: 5%;
+    height: 95%;
+    width: 25%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+#direita
+{
+    padding-left: 10%;
+    height: 95%;
+
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 14px;
+    margin-bottom: 10%;
+    margin-top: 0px;
+    margin-left: 25%;
+}
+
+#esquerda ul li
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+input
+{
+    width: 92%;
+    height: 8%;
+    border-radius: 5px;
+}
+
+.float
+{
+    float: left;
+}
+
+.margin40px
+{
+    margin-bottom: 40px;
+}
+
+.lightgray
+{
+    color: rgb(137, 137, 137);
+}
